@@ -93,3 +93,8 @@ footer {
   text-align: center;
   color: #000;
 }
+
+footer a#vini{
+  text-decoration: none;
+  color: #fff;
+}
