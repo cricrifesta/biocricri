@@ -2,7 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Inter', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
 }
 
 html {
@@ -12,10 +13,10 @@ html {
 }
 
 body {
-	padding: 30px;
-	color:  fff;
+	padding: 5px;
 	/* background-color: #17171C; */
   /* background-image: url("img/img_2.jpeg"); */
+  
 }
 
 /* header */
@@ -35,6 +36,8 @@ header img {
 }
 header h1 {
 	color: #000;
+  font-family: 'Allison', cursive;
+  font-size: 80px;
 }
 header p {
   font-size: 120%;
@@ -67,18 +70,18 @@ section article div{
   justify-content: center;
   align-items: center;
   padding: 4px;
-  border: 3px solid #c2e6e6; 
-
+  border: 3px solid #c2e6e6;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 section article div:hover{
-  border: 3px solid #fff;
+  border: 3px solid rgba(0, 0, 0, 0.774);
 }
 
 section article div .iconify{
   font-size: 26px;
   margin-bottom: 10px;
-  color: #000;
+  color: #fff;
 }
 
 section article div h3{
@@ -86,7 +89,7 @@ section article div h3{
   line-height: 23px;
   font-weight: 500;
   font-size: 16px;
-  color: #000;
+  color: #fff;
 }
 
 footer {
